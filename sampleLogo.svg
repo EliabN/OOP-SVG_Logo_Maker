@@ -1,7 +1,7 @@
 <svg version="1.1" width="300" height="210" xmlns="http://www.w3.org/2000/svg">
             
-	<rect x="50" y="20" width="130" height="130" stroke-width="4" fill="#5678" stroke="black" />
+	<circle cx="100" cy="100" r="75" stroke="black" stroke-width="4" fill="#733909" />
         
-	<text x="115" y="105" font-size="60" text-anchor="middle" fill="red">ssd</text>
+	<text x="100" y="120" font-size="60" text-anchor="middle" fill="red">YYY</text>
             
 </svg>

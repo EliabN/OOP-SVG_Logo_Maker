@@ -7,7 +7,7 @@ Application that takes in user input to generate a logo and save it as an [SVG f
 
 Because this application won’t be deployed, you’ll find a link to a walkthrough video below that demonstrates its functionality and passes all of the tests.
 
-Refer to the [Video Submission Guide](https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide) on the Full-Stack Blog for additional guidance on creating a video.
+Refer to the [Video Submission Guide](https://watch.screencastify.com/v/6Osc8IEalBuwHxgAQXYP) on the Full-Stack Blog for additional guidance on creating a video.
 
 ### User Story
 
