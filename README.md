@@ -7,8 +7,6 @@ Application that takes in user input to generate a logo and save it as an [SVG f
 
 Because this application won’t be deployed, you’ll find a link to a walkthrough video below that demonstrates its functionality and passes all of the tests.
 
-Refer to the [Video Submission Guide](https://watch.screencastify.com/v/6Osc8IEalBuwHxgAQXYP) on the Full-Stack Blog for additional guidance on creating a video.
-
 ### User Story
 
 ```md
@@ -31,7 +29,7 @@ The application will use [Jest](https://www.npmjs.com/package/jest) for running 
 use > npm start < for => node index.js
 ```
 
-For repository file structure refer to below diagram:
+For repository file structure refer to example diagram below:
 
 ```md
 .  
@@ -46,17 +44,26 @@ For repository file structure refer to below diagram:
 └── README.md           // App description, link to video, setup and usage instructions           
 ```
 
+## Test
 
-The following example test should pass:
+The example test below:
 
 ```js
-const shape = new Triangle();
-shape.setColor("blue");
-expect(shape.render()).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="blue" />');
+const shape = new Shape();
+    const err = new Error('Child class must implement a render() method.');
+    expect(() => shape.render()).toThrow(err);
 ```
+## Demonstration
 
-You may need to add additional files in the `lib` folder for handling user input, writing to a file, etc. Writing tests for these additional files is **optional**.
+Because this application won’t be deployed, here is a walkthrough video that demonstrates its functionality.
 
+Click the link for the [Demonstration video](https://watch.screencastify.com/v/6Osc8IEalBuwHxgAQXYP)
+
+## License
+
+This project license is under the [MIT](https://opensource.org/licenses/MIT)
+
+---
 ## Resources USED
 
 * [Example SVG](https://static.fullstack-bootcamp.com/fullstack-ground/module-10/circle.svg)
